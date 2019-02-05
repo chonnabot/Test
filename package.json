@@ -1,0 +1,48 @@
+{
+  "name": "movie-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.13.0",
+    "express": "^4.16.4",
+    "firebase": "^5.5.4",
+    "giphy-js-sdk-core": "^1.0.6",
+    "lodash": "^4.17.11",
+    "morgan": "^1.9.1",
+    "random-words": "^1.1.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.4",
+    "react-text-truncate": "^0.13.1",
+    "redux": "^4.0.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.82.5"
+  },
+  "devDependencies": {
+    "husky": "^1.1.2",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.2",
+    "pretty-quick": "^1.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write \"src/**/*.{js,css}\"",
+    "prettier-changefiles": "pretty-quick --staged",
+    "precommit": "yarn run prettier-changefiles"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
